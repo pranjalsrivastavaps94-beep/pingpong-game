@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ping Pong - Pranjal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Ping Pong Game</h1>
+
+<div class="menu">
+
+<button onclick="startGame('ai','easy')">AI Easy</button>
+<button onclick="startGame('ai','medium')">AI Medium</button>
+<button onclick="startGame('ai','hard')">AI Hard</button>
+
+<button onclick="startGame('manual')">2 Player</button>
+
+</div>
+
+<div class="score">
+<span id="playerScore">0</span> :
+<span id="aiScore">0</span>
+</div>
+
+<canvas id="gameCanvas" width="900" height="500"></canvas>
+
+<div class="bgtext">Pranjal Srivastava</div>
+
+<div class="dev">Developed by Pranjal Srivastava</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
